@@ -3,12 +3,14 @@ import styled from 'styled-components'
 
 
 const skillsContent = [
-    ["HTML 5", "The base to build the web. my knowlege covers basic tags, sematic tags, data attributes and more"],
-    ["CSS 3","In Cascading Style Sheets my knowlege covers Css Basic, Box Model, Flex Box, Css Grid, and other features such as media queries and gradients"],
-    ["JAVASCRIP","The base of the web 2. In this technology I have knowledge about control structures, loops, functions, arrow functions, dom handling, event handlers, Object Oriented Programming, array and string methods, etc."],
-    ["REACT","In this technology my knowledge covers stateless and stateful components based on functional components, hooks such as useState, useEffect, useContext and others, besides this I have knowledge about packages such as styled-components, react router and others."],
-    ["NODE","Although I do not master this technology, I have basic knowledge of it, some pre-built modules and other features."],
-    ["ADOBE XD","Although I don't have enough knowledge to be a web designer, I do know how to use this tool to make some designs."],
+    ["HTML 5", "Semantic tags, audio and video tags and more"],
+    ["CSS 3","In Cascading Style Sheets my knowlege covers Css Basic, Box Model, Flex Box, Css Grid, media queries, keyframes and more"],
+    ["JAVASCRIP","Control structures, loops, functions, arrow functions, dom handling, event handlers, Object Oriented Programming, array and string methods and more"],
+    ["REACT","Stateless and stateful components based on functional components, hooks such as useState, useEffect, useContext and others, besides this I have knowledge about packages such as styled-components, react router and others."],
+    ["Tailwind","This is a powerful utility-based css framework which is highly efficient."],
+    ["NODE","I have a basic knowledge of this technology"],
+    ["ADOBE XD","Do you want a creative but elegant website? I can help you with the design of your website"],
+    ["AIs","I have knowledge about the management of different artificial intelligence for the creation of content such as chatGPT, midjourney, SAM among others."],
 ]
 const Slider = styled.main`
     ::-webkit-scrollbar{
