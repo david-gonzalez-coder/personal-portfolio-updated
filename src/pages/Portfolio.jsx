@@ -1,5 +1,5 @@
 import lemonEnglish from "../assets/images/lemonEnglish.png"
-import odysseyImg from "../assets/images/odysseyImg.png"
+// import odysseyImg from "../assets/images/odysseyImg.png"
 import atomicImg from "../assets/images/atomicImg.png"
 import redesignAmazon from "../assets/images/redesignAmazon.png"
 const Card = ({img, title}) =>{
@@ -17,7 +17,7 @@ const Portfolio = () => {
             </div>
             <div className="p-4 grid gap-4 grid-cols-[repeat(auto-fit,minmax(300px,1fr))] sm:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] w-full md:gap-8">
                 <Card img={lemonEnglish}/>
-                <Card img={odysseyImg}/>
+                {/* <Card img={odysseyImg}/> */}
                 <Card img={atomicImg}/>
                 <Card img={redesignAmazon} />
                 
