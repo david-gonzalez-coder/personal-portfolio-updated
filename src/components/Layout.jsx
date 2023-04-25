@@ -17,7 +17,7 @@ const Layout = () => {
     return (
         <div className="h-screen flex flex-col">
             <Menu />
-            <Wrapper ref={refWrapper} className="overflow-y-scroll bg-white sm:rounded-xl content-container grow m-auto w-full sm:w-[90%]">
+            <Wrapper ref={refWrapper} className=" overflow-y-scroll bg-white sm:rounded-xl content-container grow mb-[10vh] m-auto w-full sm:w-[90%]">
                 <Outlet />
             </Wrapper>
             <Footer />

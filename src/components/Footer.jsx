@@ -26,7 +26,7 @@ const Footer = () => {
          }
 }, [musicState])
     return (
-        <div className="h-[10vh]  bg-white rounded-t-lg flex items-center justify-center">
+        <div className="fixed bottom-0 w-full h-[10vh]  bg-white rounded-t-lg flex items-center justify-center">
             <Btn 
                 className="transition-all text-sm px-16 py-2 duration-200 pointer rounded-full font-semibold transition-all text-[#61677C]" 
                 onClick={()=> setMusicState(!musicState)} 

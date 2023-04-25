@@ -4,7 +4,9 @@
 @tailwind utilities;
 
 @layer components{
-
+  .sub-title{
+    @apply text-[#363636] text-2xl mb-8 font-bold text-center 
+  }
 }
 
 body{
@@ -13,6 +15,9 @@ body{
 }
 a, button{
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+p{
+  margin-bottom: 20px;
 }
 /* p{
   font-size: 1.25rem;
