@@ -1,7 +1,7 @@
 // import lemonEnglish from "../assets/images/lemonEnglish.png"
 // import odysseyImg from "../assets/images/odysseyImg.png"
 import tailwindPractices from "../assets/images/tailwindPractices.png"
-import redesignAmazon from "../assets/images/redesignAmazon.png"
+import redesignAmz from "../assets/images/redesignAmz.png"
 
 import { lemonInglshBaner } from "../assets/images"
 const Card = ({img, title, href="#"}) =>{
@@ -22,7 +22,7 @@ const Portfolio = () => {
                 <a href="https://lemon-english.david-gonzalez.dev/" className=" inline-block border object-conver rounded-xl w-full col-span-full bg-slate-500 aspect-[17/7] overflow-hidden">
                     <img src={lemonInglshBaner} alt={"lemon english"} className="h-full w-full object-conver" />
                 </a>
-                <Card href="https://amazon-clone-redesign.david-gonzalez.dev/" img={redesignAmazon} />
+                <Card href="https://amazon-clone-redesign.david-gonzalez.dev/" img={redesignAmz} />
                 <Card href="https://tailwind-first-practices.david-gonzalez.dev/"img={tailwindPractices}/>
                
                 
