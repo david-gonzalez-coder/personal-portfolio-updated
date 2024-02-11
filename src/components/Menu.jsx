@@ -18,6 +18,7 @@ const Drawer = styled.div`
         margin: 20px 10px;
     }
 `
+const ItemMenu = ({to="", label=""}) => <Link to={to} className='hover:font-normal my-2 font-light text-4xl' >{label}</Link>
 const Menu = () => {
     const location = useLocation();
     const [open, setOpen] = useState(false)
@@ -31,10 +32,11 @@ const Menu = () => {
             </nav>
             <Drawer open={open} className=' transition-transform duration-300 bg-white rounded-3xl fixed top-0 w-full sm:w-[400px] lg:w-[500px] h-screen z-40   flex flex-col items-center justify-center gap-20'>
                 <nav className='flex flex-col items-center'>
-                    <Link to="/" className='hover:font-normal my-2 font-light text-4xl' >Home</Link>
-                    <Link to="portfolio" className='hover:font-normal my-2 font-light text-4xl' >Porfolio</Link>
-                    <Link to="skills" className='hover:font-normal my-2 font-light text-4xl' >Skills</Link>
-                    <Link to="contact" className='hover:font-normal my-2 font-light text-4xl' >Contact</Link>
+                    <ItemMenu to="/" label="Home" />
+                    <ItemMenu to="portfolio" label="Porfolio" />
+                    <ItemMenu to="skills" label="Skills" />
+                    <ItemMenu to="contact" label="Contact" />
+                    <ItemMenu to="react-library" label="React components" />
                 </nav>
                 <nav className='flex'>
                     <a className='social-media' href='https://www.linkedin.com/in/david-gonzalez-d'>
