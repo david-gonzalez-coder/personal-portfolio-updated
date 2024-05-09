@@ -9,6 +9,7 @@ const skillsContent = [
     ["REACT","Stateless and stateful components based on functional components, hooks such as useState, useEffect, useContext and others, besides this I have knowledge about packages such as styled-components, react router and others."],
     ["Tailwind","This is a powerful utility-based css framework which is highly efficient."],
     ["NODE","I have a basic knowledge of this technology"],
+    [".NET","I have developed APIs with this technology using C# and JWT"],
     ["ADOBE XD","Do you want a creative but elegant website? I can help you with the design of your website"],
     ["AIs","I have knowledge about the management of different artificial intelligence for the creation of content such as chatGPT, midjourney, SAM among others."],
 ]
