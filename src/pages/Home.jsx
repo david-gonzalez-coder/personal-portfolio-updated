@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Home = () => {
     return (
-        <section>
+        <main className="max-w-screen-xl m-auto rounded-lg overflow-hidden">
             <section 
                 className="relative flex items-center  text-white h-[90vh]" 
                 style={{background: "linear-gradient(to right, #141414 0%, #141414 80%, #1a1a1a 80%, #1a1a1a 100%)"}}>
@@ -21,7 +21,7 @@ const Home = () => {
                 <Link to="portfolio" className="my-2 font-light text-3xl sm:text-4xl">Portfolio</Link>
                 <Link to="skills" className="my-2 font-light text-3xl sm:text-4xl">Skills</Link>
             </nav>
-        </section>
+        </main>
     )
 }
 export default Home
