@@ -22,3 +22,34 @@ p{
 /* p{
   font-size: 1.25rem;
 } */
+
+.blob {
+  border-radius: 50%;
+  filter: blur(50px);
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 0;
+  /* z-index: -1; */
+}
+
+.blob__blue {
+  background-color: #0781d363;
+}
+.blob__pink {
+  background-color: #ff00ff1a;
+}
+.blod__sm {
+  width: 100px;
+  height: 100px;
+}
+
+.blob__md {
+  width: 200px;
+  height: 200px;
+}
+
+.blob__lg {
+  width: 300px;
+  height: 300px;
+}
