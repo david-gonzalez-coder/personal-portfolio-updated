@@ -8,9 +8,9 @@ const Home = () => {
             <section 
                 className="relative flex items-center  text-white h-[80vh]" 
                 style={{background: "linear-gradient(to right, #141414 0%, #141414 80%, #1a1a1a 80%, #1a1a1a 100%)"}}>
-                <div class="blob blob__blue blob__md  top-[10vh]"></div>
+                {/* <div class="blob blob__blue blob__md  top-[10vh]"></div>
                 <div class="blob blob__pink blob__md  top-[60vh] right-[10vw]"></div>
-                <div class="blob blob__blue blob__md  top-[100vh] left-[10vw]"></div>
+                <div class="blob blob__blue blob__md  top-[100vh] left-[10vw]"></div> */}
                 <main className=" p-8 flex items-center justify-center sm:w-[calc(80%-90px)] flex-col ">
                     <h1 class="mb-8 leading-[4rem] text-center text-[3.5rem] font-bold flex flex-col">
                         <span>I'm David</span>
